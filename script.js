@@ -1,15 +1,15 @@
 const questions = [
     {
         question: "Fatma, ayna karşısında sol gözünü sağ eli ile tuttuğunda, ayna karşısında sol gözünü hangi eli ile tutuyor olarak görür?",
-        answer: " Sağ eli . "
+        answer: " Sağ eli"
     },
     {
         question: "İki ülkenin sınırına uçak düşerse yaralılar nereye gömülür?",
-        answer: "hastaneye götürülür."
+        answer: "hastaneye götürülür"
     },
     {
         question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
-        answer: "12."
+        answer: "12"
     }
     
 
