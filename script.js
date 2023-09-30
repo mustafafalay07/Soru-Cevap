@@ -1,16 +1,29 @@
 const questions = [
     {
-        question: "Başkentinin adı nedir?",
-        answer: "Ankara"
+        question: "Fatma, ayna karşısında sol gözünü sağ eli ile tuttuğunda, ayna karşısında sol gözünü hangi eli ile tutuyor olarak görür?",
+        answer: " Sağ eli ile tuttuğunu görür. "
     },
     {
-        question: "Dünyanın en uzun nehrinin adı nedir?",
-        answer: "Nil"
+        question: "İki ülkenin sınırına uçak düşerse yaralılar nereye gömülür?",
+        answer: "Yaralılar gömülmez hastaneye götürülür."
     },
     {
-        question: "Hangi gezegen Güneş Sistemi'ndeki en büyük gezegendir?",
-        answer: "Jüpiter"
+        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
+        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
     }
+    {
+        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
+        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
+    }
+    {
+        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
+        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
+    }
+    {
+        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
+        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
+    }
+
 ];
 
 let currentQuestionIndex = 0;
@@ -22,6 +35,13 @@ const submitAnswerButton = document.getElementById("submit-answer");
 const resultElement = document.getElementById("result");
 const scoreElement = document.getElementById("score-value");
 const restartGameButton = document.getElementById("restart-game");
+const questionElement = document.getElementById("question");
+const answerInput = document.getElementById("answer");
+const submitAnswerButton = document.getElementById("submit-answer");
+const resultElement = document.getElementById("result");
+const scoreElement = document.getElementById("score-value");
+const restartGameButton = document.getElementById("restart-game");
+
 
 
 function displayQuestion() {
