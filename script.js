@@ -11,30 +11,13 @@ const questions = [
         question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
         answer: "Hepsinde. Tüm aylarda 28 gün vardır."
     }
-    {
-        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
-        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
-    }
-    {
-        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
-        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
-    }
-    {
-        question: "Bazı aylar 30, bazıları 31 çeker; kaç ayda 28 gün vardır?",
-        answer: "Hepsinde. Tüm aylarda 28 gün vardır."
-    }
+    
 
 ];
 
 let currentQuestionIndex = 0;
 let score = 0;
 
-const questionElement = document.getElementById("question");
-const answerInput = document.getElementById("answer");
-const submitAnswerButton = document.getElementById("submit-answer");
-const resultElement = document.getElementById("result");
-const scoreElement = document.getElementById("score-value");
-const restartGameButton = document.getElementById("restart-game");
 const questionElement = document.getElementById("question");
 const answerInput = document.getElementById("answer");
 const submitAnswerButton = document.getElementById("submit-answer");
